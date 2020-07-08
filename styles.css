@@ -1,0 +1,89 @@
+body{
+    background:linear-gradient(to left,blue , darkblue);
+}
+
+.scoreboard{
+    max-width:300px;
+    max-height:100px;
+    width:300px;
+    height:100px;
+    margin-left: auto;
+    margin-right:auto;
+    border:5px solid white;
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+}
+h1{
+    margin:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Player1{
+    position:relative;
+    left:-90px;
+}
+
+.Player2{
+    position:relative;
+    left:95px;
+}
+.score{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    bottom:130px;
+    margin:0;
+}
+p{
+    font-size:50px;
+    color:white;
+}
+.playground{
+    height:456px;
+    width:456px;
+    max-width:456px;
+    max-height:456px;
+    background:white;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+    bottom:130px;
+    border-radius:4px;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+
+}
+.restart-btn{
+    position:absolute;
+    right:52%;
+    left:48%;
+    bottom:10%;
+    border:none;
+    background:yellow;
+    width:70px;
+    height:25px;
+}
+.restart-btn:hover{
+    transform:scale(1.1)
+}
+.restart-btn:active{
+    transform:scale(1);
+    background:rgb(169, 169, 136);
+}
+.play-btn{
+    border:1px solid black;
+    max-width:150px;
+    max-height:150px;
+    width:150px;
+    height:150px;
+    font-size:130px;
+    text-align:center;
+    cursor: pointer;
+}
+

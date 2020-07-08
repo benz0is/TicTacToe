@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>tic-tac-toe</title>
+</head>
+<body>
+    <div class="scoreboard">
+    <h1 class="Player1">Player 1</h1>
+    <h1 class="Player2">Player 2</h1>
+
+    </div>
+    <div class="score"><p class="Player11">0 </p><p>:</p><p class="Player22">0</p></div>
+    <div class="playground">
+        <div data-cell-index="0"onclick="squareclicked()" class="play-btn" id="play-btn1"></div>
+        <div data-cell-index="1"onclick="squareclicked()" class="play-btn" id="play-btn2"></div>
+        <div data-cell-index="2"onclick="squareclicked()" class="play-btn" id="play-btn3"></div>
+        <div data-cell-index="3"onclick="squareclicked()" class="play-btn" id="play-btn4"></div>
+        <div data-cell-index="4"onclick="squareclicked()" class="play-btn" id="play-btn5"></div>
+        <div data-cell-index="5"onclick="squareclicked()" class="play-btn" id="play-btn6"></div>
+        <div data-cell-index="6"onclick="squareclicked()" class="play-btn" id="play-btn7"></div>
+        <div data-cell-index="7"onclick="squareclicked()" class="play-btn" id="play-btn8"></div>
+        <div data-cell-index="8"onclick="squareclicked()" class="play-btn" id="play-btn9"></div>
+    </div>
+    <div>
+        <button type="button" class="restart-btn" id="restart-btn">Restart</button>
+    </div>  
+</body>
+<script src="app.js"></script>
+</html>
